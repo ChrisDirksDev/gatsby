@@ -8,7 +8,7 @@ export const HeroPanel = ({ className }) => {
   const name = ClassNames("hero-panel", className)
   return (
     <Panel className={name}>
-      {/* <Particles width="100%" height="100vh" params={params} /> */}
+      <Particles width="100%" height="100vh" params={params} />
       <div className="noselect hero-text-container">
         <h1>Hi</h1>
         <h1>I'm Chris</h1>
