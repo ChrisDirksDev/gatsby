@@ -1,0 +1,14 @@
+.hero-panel {
+  position: relative;
+  z-index: 1;
+  top: 0;
+  .hero-text-container {
+    position: absolute;
+    left: 300px;
+    top: 30%;
+    color: #fff;
+    & > h1 {
+      font-size: 160px;
+    }
+  }
+}
