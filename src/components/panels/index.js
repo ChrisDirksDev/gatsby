@@ -1,3 +1,6 @@
 export { Panel } from "./panel"
+export { PanelDescription } from "./PanelDescription"
 export { HeroPanel } from "./HeroPanel"
+export { SummaryPanel } from "./SummaryPanel"
+export { SkillsPanel } from "./SkillsPanel"
 export { PanelGroup } from "./panelGroup"

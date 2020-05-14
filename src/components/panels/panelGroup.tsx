@@ -16,7 +16,7 @@ export const PanelGroup = (props: panelGroupProps) => {
         return
       }
       const name = ClassNames("trans-panel", {
-        inverted: element.props.className !== "dark-purple",
+        inverted: element.props.className !== "primary",
       })
       const transPanel = (
         <div className={name} key={index}>

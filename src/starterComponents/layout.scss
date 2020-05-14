@@ -639,3 +639,11 @@ main {
 html {
   background-color: rgb(189, 97, 212);
 }
+
+:root {
+  --primary-bg-color: #000;
+  --secondary-bg-color: #fff;
+
+  --primary-text-color: #fff;
+  --secondary-text-color: #000;
+}

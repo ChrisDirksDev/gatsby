@@ -1,0 +1,17 @@
+.summary-panel {
+  padding: 2em;
+  display: flex;
+
+  & > div {
+    flex: 1;
+  }
+  .left-side {
+    display: flex;
+    h1 {
+      font-size: 60px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+}

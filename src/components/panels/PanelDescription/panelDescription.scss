@@ -1,0 +1,14 @@
+.panel-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .description {
+    &.offsetLeft {
+      padding-left: 75px;
+    }
+    &.offsetRight {
+      padding-right: 75px;
+    }
+  }
+}

@@ -3,13 +3,10 @@
   height: 100vh;
   overflow: hidden;
 
-  &.dark-purple {
-    background: rgb(54, 33, 62);
+  &.primary {
+    background: var(--primary-bg-color);
   }
-  &.slate-grey {
-    background-color: rgb(99, 118, 141);
-  }
-  &.purple-navy {
-    background-color: rgb(71, 73, 115);
+  &.secondary {
+    background-color: var(--secondary-bg-color);
   }
 }
