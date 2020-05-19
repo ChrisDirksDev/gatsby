@@ -209,17 +209,6 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
-img {
-  max-width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-}
 h1 {
   margin-left: 0;
   margin-right: 0;
@@ -646,4 +635,24 @@ html {
 
   --primary-text-color: #fff;
   --secondary-text-color: #000;
+}
+
+.bg-primary {
+  background-color: var(--primary-bg-color);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-bg-color);
+}
+
+.color-primary {
+  color: var(--primary-text-color);
+}
+
+.color-secondary {
+  color: var(--secondary-text-color);
+}
+
+.fill-white {
+  fill: white;
 }

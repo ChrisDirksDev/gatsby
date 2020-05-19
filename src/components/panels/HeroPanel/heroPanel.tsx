@@ -1,5 +1,6 @@
 import React from "react"
 import { Panel } from "../index"
+import Bird from "../../../images/birdImage"
 import ClassNames from "classnames"
 
 import "./heroPanel.scss"
@@ -10,6 +11,9 @@ export const HeroPanel = ({ className }) => {
       <div className="noselect hero-text-container">
         <h1>Hi</h1>
         <h1>I'm Chris</h1>
+      </div>
+      <div className="hero-image">
+        <Bird />
       </div>
     </Panel>
   )

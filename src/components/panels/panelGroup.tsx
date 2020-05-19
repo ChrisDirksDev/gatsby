@@ -2,6 +2,8 @@ import React from "react"
 import ClassNames from "classnames"
 import "./panelGroup.scss"
 
+"use strict"
+
 interface panelGroupProps {
   children: React.ReactNode
 }
